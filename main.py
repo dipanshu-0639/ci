@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 fig, ax=plt.subplots()
 
 fruits=['apple','blueberry','cherry','orange']
-counts=[40,100,30,55]
+counts=[140,120,30,55]
 bar_labels=['red','blue','_red','orange']
 bar_colors=['tab:red','tab:blue','tab:red','tab:orange']
 
@@ -16,7 +16,7 @@ ax.legend(title='Fruits color')
 plt.savefig('bars.png',bbox_inches='tight')
 
 cat=["bored","bored",'happy','happy','happy','bored']
-dog=['bored','bored','bored','happy','bored','bored']
+dog=['bored','happy','bored','happy','happy','bored']
 activity=["combing",'drinking','feeding','napping','playing','washing']
 
 fig,ax=plt.subplots()
