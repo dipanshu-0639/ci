@@ -38,7 +38,7 @@
           echo "## Bar Plots" >> report.md
           echo '![](./bars.png "Bar Plot")' >> report.md
           echo "## Line Plots" >> report.md
-          echo '![](./line.png "Line Plot")' >> report.md
+          echo '![](./lines.png "Line Plot")' >> report.md
 
           cml comment create report.md
       
