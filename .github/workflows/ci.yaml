@@ -11,9 +11,9 @@
 
       steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-python@6
+      - uses: actions/setup-python@4
         with:
-          python-version: 3.13
+          python-version: 3.11
       - uses: iterative/setup-cml@v2
 
       - name: Install Dependencies
