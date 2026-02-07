@@ -11,7 +11,7 @@
 
       steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@4
+      - uses: actions/setup-python@44
         with:
           python-version: 3.10
       - uses: iterative/setup-cml@v2
