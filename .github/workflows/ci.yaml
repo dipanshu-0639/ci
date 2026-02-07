@@ -31,7 +31,7 @@
 
       - name: Create CML report
         env:
-           REPO_TOKEN: ${{ scerets.}}
+           REPO_TOKEN: ${{ scerets.MY_TOKEN}}
         run: |
 
           echo "# First Line of our report" >> report.md
